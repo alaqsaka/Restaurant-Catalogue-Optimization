@@ -1,0 +1,36 @@
+{
+  "name": "restaurant-catalogue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^6.4.1",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "html-webpack-plugin": "^4.5.2",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "idb": "^6.1.2",
+    "regenerator-runtime": "^0.13.7",
+    "serviceworker-webpack-plugin": "^1.0.1"
+  }
+}
